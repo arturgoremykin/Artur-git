@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    background: bisque;
+    min-height: 600px;
+    padding: 15px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+.logo{
+    color: burlywood;
+    font-weight: 700;
+    font-size: 30px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.link{
+    margin: 0 15px;
+    color: cadetblue;
+    font-size: 30px;
+}
